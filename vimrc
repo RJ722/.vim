@@ -4,7 +4,6 @@ set number
 set colorcolumn=90
 filetype on
 syntax on
-colorscheme dracula
 
 set guifont=Menlo\ Regular:h18
 
