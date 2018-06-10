@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/rahuljha/Documents/vulture'
+let g:netrw_dirhist_2='/Users/rahuljha/Documents/vulture-whitelist-generators'
+let g:netrw_dirhist_3='/Users/rahuljha/Documents/vulture-whitelist-generators/vulture_whitelist'
+let g:netrw_dirhist_4='/Users/rahuljha/Documents/vulture-whitelist-generators'
+let g:netrw_dirhist_5='/Users/rahuljha/.vim'
+let g:netrw_dirhist_6='/Users/rahuljha/.vim/bundle/lightline.vim'
