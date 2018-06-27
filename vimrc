@@ -1,17 +1,22 @@
 execute pathogen#infect()
 
 set number
-set colorcolumn=90
+set relativenumber
+set colorcolumn=79
 filetype on
 syntax on
 
-set guifont=Menlo\ Regular:h18
+colorscheme codedark
 
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set backspace=indent,eol,start
+set tabstop=4 softtabstop=4 shiftwidth=4
+set smarttab
 set expandtab
 set smartindent
 set autoindent
 filetype indent on
+
+set mouse=a
 
 noremap <C-c> "+y
 noremap <C-v> "+p
