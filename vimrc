@@ -18,8 +18,9 @@ filetype indent on
 
 set mouse=a
 
-noremap <C-c> "+y
-noremap <C-v> "+p
+" Always copy and paste into system clipboard
+noremap y "+y
+noremap p "+p
 
 autocmd VimEnter * NERDTree | wincmd p
 map <C-n> :NERDTreeToggle<CR>
