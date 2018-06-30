@@ -28,8 +28,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
-let g:sign_column=1
-
 let g:ale_linters = {
 \   'python': ['flake8', 'autopep8'],
 \}
